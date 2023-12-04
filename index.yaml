@@ -3,7 +3,7 @@ entries:
   flannel:
   - apiVersion: v1
     appVersion: v0.23.0
-    created: "2023-12-04T09:20:47.443137331Z"
+    created: "2023-12-04T17:09:34.093770614Z"
     description: Install Flannel Network Plugin.
     digest: 2c20e4ef23eba24af12a91c9aea3c9f2208fb494d9000c4a898a8ee88b125065
     keywords:
@@ -14,4 +14,15 @@ entries:
     urls:
     - https://zvonkok.github.io/helm-charts/flannel-v0.23.0.tgz
     version: v0.23.0
-generated: "2023-12-04T09:20:47.44123838Z"
+  rag-llm-hackfest:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-04T17:09:34.094344778Z"
+    description: A Helm chart for Kubernetes
+    digest: 92043bd015556b4fbd55afb660384c1ebec7029fc39326ce763907987b76bdad
+    name: rag-llm-hackfest
+    type: application
+    urls:
+    - https://zvonkok.github.io/helm-charts/rag-llm-hackfest-0.1.0.tgz
+    version: 0.1.0
+generated: "2023-12-04T17:09:34.092645175Z"
