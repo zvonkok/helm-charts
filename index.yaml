@@ -3,15 +3,15 @@ entries:
   flannel:
   - apiVersion: v1
     appVersion: v0.23.0
-    created: "2023-12-01T13:02:05.74748597Z"
+    created: "2023-12-04T09:20:47.443137331Z"
     description: Install Flannel Network Plugin.
-    digest: 757f366aa7d069f4f7ebfd0bd7ecc15b848e362aa393d3f6556ec2902fde693b
+    digest: 2c20e4ef23eba24af12a91c9aea3c9f2208fb494d9000c4a898a8ee88b125065
     keywords:
     - Flannel
     name: flannel
     sources:
     - https://github.com/flannel-io/flannel
     urls:
-    - flannel-v0.23.0.tgz
+    - https://zvonkok.github.io/helm-charts/flannel-v0.23.0.tgz
     version: v0.23.0
-generated: "2023-12-01T13:02:05.74749583Z"
+generated: "2023-12-04T09:20:47.44123838Z"
