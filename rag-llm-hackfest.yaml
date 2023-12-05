@@ -1,0 +1,28 @@
+apiVersion: package.nvidia.com/v1alpha1
+kind: HelmOrchard
+metadata:
+  labels:
+    app.kubernetes.io/name: helmorchard
+    app.kubernetes.io/instance: helmorchard-sample
+    app.kubernetes.io/part-of: kube-trailblazer
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/created-by: kube-trailblazer
+  name: helmorchard-sample
+spec:
+  orchard:
+  
+  - repoEntry:
+      name: "zvonkok"
+      url: "https://zvonkok.github.io/helm-charts/"
+    chartSpec:
+      release:   "rag-llm-hackfest"
+      chart:     "zvonkok/rag-llm-hackfest"
+      namespace: "rag-llm"
+      version:   "0.1.0"
+    chartValues: 
+      triton:
+        modelDirectory: "/zvonkok/model/llama2_13b_chat_hf_v1/"
+      images:
+        registry:
+          ImagePullSecret:
+            password: 
