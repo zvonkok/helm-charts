@@ -3,7 +3,7 @@ entries:
   flannel:
   - apiVersion: v1
     appVersion: v0.23.0
-    created: "2023-12-04T17:09:34.093770614Z"
+    created: "2023-12-05T14:59:57.107355765Z"
     description: Install Flannel Network Plugin.
     digest: 2c20e4ef23eba24af12a91c9aea3c9f2208fb494d9000c4a898a8ee88b125065
     keywords:
@@ -14,15 +14,26 @@ entries:
     urls:
     - https://zvonkok.github.io/helm-charts/flannel-v0.23.0.tgz
     version: v0.23.0
+  kube-trailblazer:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2023-12-05T14:59:57.107909169Z"
+    description: A Helm chart for Kubernetes
+    digest: a85026dbfb3c206e9fb55fe5a701177aa0a01502f59e55364da3b40ff8df74ee
+    name: kube-trailblazer
+    type: application
+    urls:
+    - https://zvonkok.github.io/helm-charts/kube-trailblazer-0.1.0.tgz
+    version: 0.1.0
   rag-llm-hackfest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-04T17:09:34.094344778Z"
+    created: "2023-12-05T14:59:57.108431784Z"
     description: A Helm chart for Kubernetes
-    digest: 92043bd015556b4fbd55afb660384c1ebec7029fc39326ce763907987b76bdad
+    digest: d8ac95cf355e82766d7cea088992c10a4d2802cb7942583e3b6e54176b120bcd
     name: rag-llm-hackfest
     type: application
     urls:
     - https://zvonkok.github.io/helm-charts/rag-llm-hackfest-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-04T17:09:34.092645175Z"
+generated: "2023-12-05T14:59:57.10679168Z"
