@@ -1,16 +1,15 @@
 apiVersion: package.nvidia.com/v1alpha1
-kind: HelmOrchard
+kind: HelmPipeline
 metadata:
   labels:
-    app.kubernetes.io/name: helmorchard
-    app.kubernetes.io/instance: helmorchard-sample
+    app.kubernetes.io/name: helmpipeline
+    app.kubernetes.io/instance: helmpipeline-sample
     app.kubernetes.io/part-of: kube-trailblazer
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/created-by: kube-trailblazer
-  name: helmorchard-sample
+  name: rag-llm-pipeline
 spec:
-  orchard:
-  
+  pipeline:
   - repoEntry:
       name: "zvonkok"
       url: "https://zvonkok.github.io/helm-charts/"
