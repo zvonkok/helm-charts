@@ -14,8 +14,8 @@ spec:
       name: "zvonkok"
       url: "https://zvonkok.github.io/helm-charts/"
     chartSpec:
-      release:   "rag-llm-hackfest"
-      chart:     "zvonkok/rag-llm-hackfest"
+      release:   "rag-llm-pipeline"
+      chart:     "zvonkok/rag-llm-pipeline"
       namespace: "rag-llm"
       version:   "0.1.0"
     chartValues: 
@@ -24,4 +24,4 @@ spec:
       images:
         registry:
           ImagePullSecret:
-            password: 
+            password:
