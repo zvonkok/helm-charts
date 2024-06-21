@@ -3,7 +3,7 @@ entries:
   flannel:
   - apiVersion: v1
     appVersion: v0.23.0
-    created: "2023-12-11T11:09:52.604865141Z"
+    created: "2024-06-21T11:58:22.857403376Z"
     description: Install Flannel Network Plugin.
     digest: 2c20e4ef23eba24af12a91c9aea3c9f2208fb494d9000c4a898a8ee88b125065
     keywords:
@@ -14,12 +14,23 @@ entries:
     urls:
     - https://zvonkok.github.io/helm-charts/flannel-v0.23.0.tgz
     version: v0.23.0
+  kata-deploy:
+  - apiVersion: v2
+    appVersion: 3.6.0
+    created: "2024-06-21T11:58:22.857612618Z"
+    description: A Helm chart for deploying Kata Containers
+    digest: d265f292b0fe19480f6652d1cbec9873a68ed72a93c309801604e2d5082f26ef
+    name: kata-deploy
+    type: application
+    urls:
+    - https://zvonkok.github.io/helm-charts/kata-deploy-3.6.0.tgz
+    version: 3.6.0
   kube-trailblazer:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-11T11:09:52.605377517Z"
+    created: "2024-06-21T11:58:22.857948658Z"
     description: A Helm chart for Kubernetes
-    digest: 666902b890e068ced3ed03c496d114141317c8f3deb962504170698f744bc388
+    digest: 84254c5de959302560ad6d316d8151fa302bf853e737e5cc304158d914e66cfd
     name: kube-trailblazer
     type: application
     urls:
@@ -28,7 +39,7 @@ entries:
   rag-llm-hackfest:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-11T11:09:52.605842192Z"
+    created: "2024-06-21T11:58:22.858239092Z"
     description: A Helm chart for Kubernetes
     digest: d4edf6b9eaf831e15328aa40b74d30027994449ff24c6fa7ddbc455f44d0959e
     name: rag-llm-hackfest
@@ -39,7 +50,7 @@ entries:
   rag-llm-pipeline:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-12-11T11:09:52.607999633Z"
+    created: "2024-06-21T11:58:22.8584939Z"
     description: A Helm chart for Kubernetes
     digest: 1ab6932793e995bb0036f6c3e1683fb9f1e611db84a81fb53280c24bb913651a
     name: rag-llm-pipeline
@@ -47,4 +58,4 @@ entries:
     urls:
     - https://zvonkok.github.io/helm-charts/rag-llm-pipeline-0.1.0.tgz
     version: 0.1.0
-generated: "2023-12-11T11:09:52.604144247Z"
+generated: "2024-06-21T11:58:22.857016321Z"
