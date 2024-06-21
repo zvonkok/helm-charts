@@ -1,0 +1,14 @@
+apiVersion: v1
+entries:
+  kata-deploy:
+  - apiVersion: v2
+    appVersion: 3.6.0-dev+24
+    created: "2024-06-21T12:12:22.361646084Z"
+    description: A Helm chart for deploying Kata Containers
+    digest: b5a22161332fc327ed176ba2a6b0c9dccc18f6b7b66efbd03e59909e78e4fc62
+    name: kata-deploy
+    type: application
+    urls:
+    - https://zvonkok.github.io/helm-charts/kata-deploy-3.6.0-dev+24.tgz
+    version: 3.6.0-dev+24
+generated: "2024-06-21T12:12:22.360599147Z"
