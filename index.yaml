@@ -3,7 +3,7 @@ entries:
   kata-deploy:
   - apiVersion: v2
     appVersion: 3.6.0-dev+24-4d45fd9818726d7d3a37cfd4ad1281bea29b67c2
-    created: "2024-06-21T12:21:31.363315415Z"
+    created: "2024-06-21T12:37:30.144580868Z"
     description: A Helm chart for deploying Kata Containers
     digest: 9818c5bafadfb2890cc61fa617080938cab2f7a5ba7f603f0f761f9915949211
     name: kata-deploy
@@ -12,8 +12,18 @@ entries:
     - https://zvonkok.github.io/helm-charts/kata-deploy-3.6.0-dev+24-4d45fd9818726d7d3a37cfd4ad1281bea29b67c2.tgz
     version: 3.6.0-dev+24-4d45fd9818726d7d3a37cfd4ad1281bea29b67c2
   - apiVersion: v2
+    appVersion: 3.6.0-dev+24-b9d7f9333087e5ee789af8f37dd26df3b3e308e0
+    created: "2024-06-21T12:37:30.144800618Z"
+    description: A Helm chart for deploying Kata Containers
+    digest: 377fe3489280f7601a1201d6141882a4ec31749915c79d5d466a15489e0db355
+    name: kata-deploy
+    type: application
+    urls:
+    - https://zvonkok.github.io/helm-charts/kata-deploy-3.6.0-dev+24-b9d7f9333087e5ee789af8f37dd26df3b3e308e0.tgz
+    version: 3.6.0-dev+24-b9d7f9333087e5ee789af8f37dd26df3b3e308e0
+  - apiVersion: v2
     appVersion: 3.6.0-dev+24
-    created: "2024-06-21T12:21:31.363815557Z"
+    created: "2024-06-21T12:37:30.145163514Z"
     description: A Helm chart for deploying Kata Containers
     digest: b5a22161332fc327ed176ba2a6b0c9dccc18f6b7b66efbd03e59909e78e4fc62
     name: kata-deploy
@@ -21,4 +31,4 @@ entries:
     urls:
     - https://zvonkok.github.io/helm-charts/kata-deploy-3.6.0-dev+24.tgz
     version: 3.6.0-dev+24
-generated: "2024-06-21T12:21:31.362416119Z"
+generated: "2024-06-21T12:37:30.144027867Z"
